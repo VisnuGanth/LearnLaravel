@@ -13,9 +13,9 @@
                 <div class="pr-5"><strong>23k</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">learnlaravel.org</div>
-            <div>Maldives is the perfect holiday destination with luxury #hotels #resorts #beaches & amazing #underwater #world</div>
-            <div><a href="noukula.com">noukula.com</a></div>
+            <div class="pt-4 font-weight-bold">{{ $user->profile->title}}</div>
+            <div>{{ $user->profile->description}}</div>
+            <div><a href="noukula.com">{{ $user->profile->url }}</a></div>
        </div>
 </div>
 
