@@ -7,7 +7,7 @@
             <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F01%2Fhawaii-december-EVRYMONTH1019.jpg" width="150" height="150" class="rounded-circle" >
        </div>
        <div class="col-9 pt-5">
-            <div><h1>Learn Laravel</h1></div>
+            <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong> posts</div>
                 <div class="pr-5"><strong>23k</strong> followers</div>
